@@ -205,6 +205,33 @@ body {
     text-align: justify;
 }
 
+#skills-header {
+    position: relative;
+    cursor: pointer;
+}
+
+.skills__tooltip {
+    visibility: hidden;
+    width: 220px;
+    background-color: var(--secondary-text-color);
+    color: var(--background-color);
+    font-size: 16px;
+    text-align: center;
+    border-radius: 4px;
+    padding: 5px 8px;
+    position: absolute;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+#skills-header:hover .skills__tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
 /* === EXPERIENCE AND ADDITIONAL INFO === */
 
 .experiences {
