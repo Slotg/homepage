@@ -15,7 +15,6 @@ body {
     --durability-text-color: #94a3b8;
     --decoration-color: #22d3ee;
     --shadow-color: #1e293b;
-
     --background-color: #0f172a;
     --container-background-color: #1e293b;
 
@@ -66,8 +65,7 @@ body {
     margin-bottom: 15px;
 }
 
-@media screen and (max-width: 576px) {
-
+@media screen and (width <=576px) {
     .resume {
         margin: 0 auto;
     }
@@ -87,7 +85,7 @@ body {
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (width <=900px) {
     .resume {
         margin: 0 auto;
     }
@@ -301,7 +299,6 @@ body {
 }
 
 .additional-info__education-university-durability {
-
     color: var(--durability-text-color);
     text-align: left;
     margin-bottom: 10px;
@@ -311,7 +308,6 @@ body {
 .additional-info__education-university-specialty {
     color: var(--secondary-text-color);
     text-align: left;
-    margin-bottom: 10px;
     font-size: 15px;
     border-left: 3px solid var(--decoration-color);
     padding-left: 12px;
